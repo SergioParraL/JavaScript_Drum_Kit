@@ -3,14 +3,20 @@
 	padding: 0;
 	font-family: poppins;
 	font-size: 16px;
-	background-color: gray;
+	/* background-color: gray; */
 	text-align: center;
+}
+
+body{
+	background-image: url('auditorio.jpeg');
+	background-size: 115%;
 }
 
 section{
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: nowrap;
+	margin-top: 40vh;
 }
 
 .key{	
@@ -18,10 +24,12 @@ section{
 	border: 2px solid black;
 	width: 5rem;
 	height: 5rem;
+	transition: all .07s ease;
 }
 
 .key-Press{
 	border: 2px solid orange;
+	transform: scale(1.2, 1.2)
 }
 kdb{
 	display: flex;
@@ -30,5 +38,6 @@ kdb{
 	color: white
 }
 .sound{
-	color: rgba(255, 255, 0, .7);
+	color: rgb(40, 41, 35)
+	/* color: rgba(255, 255, 0, .7); */
 }
